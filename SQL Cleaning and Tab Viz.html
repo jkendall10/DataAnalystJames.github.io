@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>James' Data Analyst Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>James' Data Analyst</strong> <span>Portfolio</span></a>
+						
+						</nav>
+						<ul class="icons">
+								<li><a href="https://github.com/jkendall10" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="jameskendall10linkedin.com/in/james-kendall-7bb90a12a" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+					</header>
+                <!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+                              	<h1>SQL Data Cleaning and Tableau Visualisations</h1>
+							</header>
+                            <div class="content">
+								<ul class="actions">
+									<li><a href="https://public.tableau.com/app/profile/james.kendall2082/viz/SocialMedia_17492185657860/Dashboard1" class="button next scrolly">Tableau Dashboard Page</a></li>
+								</ul>
+							</div>
+							<div class="content">
+								<ul class="actions">
+									<li><a href="https://github.com/jkendall10/Portfolio-Projects/blob/main/SQL/Social%20Media%20SQL.sql" class="button next scrolly">Project Github Page</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+
+                <!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>The data journey...</h2>
+									</header>
+									<p>The social media data set contains responses to a series of questions by young adults from across the world.<br />
+									As you will see, it contains interesting data on the how long people spend on social media and the impact on their<br />
+									lives.<br />
+									After importing the data into SQL Server and correcting data types, I assigned an index as student_id to to improve usability. I then began the the process of <br />
+									cleaning the data before exporting it to Tableau for creating visualisations.
+									</p>
+                                    <span class="image">
+										<img src="images/Social media 1st shot.png" style="display: block; margin: 0 auto; width: 50%;" alt="Responsive centered image">
+                                    </span>
+                                    <p> Two columns contained float data which required rounding to make the data more managable. As you can see the the images below<br />
+									I updated the data set using the UPDATE and ROUND functions.<br />
+									Following that, a column which contained binary data (1,0) as a response to if socail media had affected academic performance.<br />
+									As shown below, I changed the type of this column and changed the binary response to 'yes' and 'no' to make it easy to manipulate <br />
+									when presenting visualisations.
+									</p>
+                                    <div class="image">
+										<img src="images/Social media rounding.jpg" style="display: block; margin: 0 auto; width: 50%;" alt="Responsive centered image">
+									</div>
+									<div class="image">
+										<img src="images/social media upcoming column data.jpg" style="display: block; margin: 0 auto; width: 50%;" alt="Responsive centered image">
+                                    </div>
+                                    <p>After cleaning the data, I exported it from SQL Server into Tableau to create visualisations. As you can see from the images below and the <br />
+									dashboard link above, I created a number of visuals to explain the story of the data.<br />
+									The bar chart below shows top 10 countries by average use of social media in hours and demonstrates that there are six countries across<br />
+									the world where young people use social media for over six hours a day.
+									</p>
+                                    <span class="image">
+										<img src="images/Social media country use.jpg" style="display: block; margin: 0 auto; width: 50%;" alt="Responsive centered image">
+                                    </span>
+                                    <p>This led me to ask a number of other questions, including what negative impacts does social media have. The dashboard shown below can<br />
+									be accessed on the link above and reveal some concerning results, including that 18 year olds have had on average of over 3.5 conflicts on <br />
+									social media, the most of any age group.								
+									</p>
+                                    <span class="image">
+										<img src="images/Social media Dashboard.jpg" style="display: block; margin: 0 auto; width: 50%;" alt="Responsive centered image">
+                                    </span>								
+								</div>
+							</section>
+               
+                <!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+						
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">jameskendall10@gmail.com</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>07496555015</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Location</h3>
+										<a href="#">London, UK</a>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+			<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://github.com/jkendall10" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="jameskendall10linkedin.com/in/james-kendall-7bb90a12a" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; James Kendall</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+           
+           
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
