@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>James' Data Analyst Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>James' Data Analyst</strong> <span>Portfolio</span></a>
+						
+						</nav>
+						<ul class="icons">
+								<li><a href="https://github.com/jkendall10" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="jameskendall10linkedin.com/in/james-kendall-7bb90a12a" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+					</header>
+                <!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+                              	<h1>Python Google Stock Price Analysis and Forecast</h1>
+							</header>
+                            <div class="content">
+								<ul class="actions">
+									<li><a href="https://github.com/jkendall10/Portfolio-Projects/blob/main/Python/Google%20Stock%20Prices.ipynb" class="button next scrolly">Project Github Page</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+
+                <!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>The data journey...</h2>
+									</header>
+									<p>Using historic Google stock price data from the last five years, I explored five areas: 
+									<br />
+									Visualize stock price trends over time<br />
+									Calculate daily returns and assess volatility<br />
+									Apply moving averages (e.g., 50-day, 200-day) to identify trends<br />
+									Analyze trading volume patterns<br />
+									Practice time series forecasting and financial modeling<br />
+									</p>
+									<p>After loading Pandas and Matplotlib and the data set, I inspected in to understand what cleaning was needed.<br />
+									I convert the 'date' column to datetime type and installed it as the index. I then removed any NA data to prevent errors<br />
+									</p>
+
+                                    <span class="image">
+										<img src="images/google_price.png" style="display: block; margin: 0 auto; width: 50%;" alt="Responsive centered image">
+                                    </span>
+                                    <p>As can be seen from the image above, I plotted the price changes over the five year period. This can be viewed along side <br />
+										'.describe' function to understand the high and low prices and volumes across the data set.
+									</p>
+                                    <span class="image">
+										<img src="images/google_volatility.png" style="display: block; margin: 0 auto; width: 50%;" alt="Responsive centered image">
+                                    </span>
+                                    <p>I then plotted volatility by creating a new column with populated with the daily price change. This can be seen above.<br />
+									<br />
+									Below, two moving averages can be seen, 50 and 200 days. I created these using the '.rolling' function. I plotted these<br />
+									alongside the price to bette undestand the fluctuations in price.<br />
+									
+									</p>
+                                    <span class="image">
+										<img src="images/google_moving_avg.png" style="display: block; margin: 0 auto; width: 50%;" alt="Responsive centered image">
+                                    </span>
+                                    <p>Below, I plotted a chart showing the volume of shares traded each day, alongside the 7 and 14 day volume moving averages.<br />
+									This chart shows the last 9 months for clarity.
+									</p>
+                                    <span class="image">
+										<img src="images/google_volume.png" style="display: block; margin: 0 auto; width: 50%;" alt="Responsive centered image">
+                                    </span>
+									<p>Finally, I imported ARIMA to run statstical modelling and forecast future stock prices. I forecasted the next 10 days prices <br />
+										using the previus 21 days data. 
+									</p>
+                                    <div style="text-align: center;">
+										<img src="images/google_forecast.png" style="display:inline-block; margin: 0 auto; width: 50%;" alt="Responsive centered image">
+									</span>
+								</div>
+							</section>
+               
+                <!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+						
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">jameskendall10@gmail.com</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>07496555015</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Location</h3>
+										<a href="#">London, UK</a>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+			<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://github.com/jkendall10" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="jameskendall10linkedin.com/in/james-kendall-7bb90a12a" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; James Kendall</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+           
+           
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
