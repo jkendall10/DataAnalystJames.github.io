@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>James' Data Analyst Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>James' Data Analyst</strong> <span>Portfolio</span></a>
+						
+						</nav>
+						<ul class="icons">
+								<li><a href="https://github.com/jkendall10" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="jameskendall10linkedin.com/in/james-kendall-7bb90a12a" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+					</header>
+                <!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+                              	<h1>Excel Netflix Data Project</h1>
+							</header>
+                            <div class="content">
+								<ul class="actions">
+									<li><a href="https://github.com/jkendall10/Portfolio-Projects/blob/main/Excel%20Skills/netflix1%202.xlsx" class="button next scrolly">Project Github Page</a></li>
+							</div>    
+								</ul>
+									<div class="content">
+								<ul class="actions">
+									<li><a href="https://1drv.ms/x/c/b50d5b9303b1e17c/EbsNkr2zDARMq6IhLD7ynmIBuvsPGnUPyRbsJGfbuf0HtA?e=rmwzWP" class="button next scrolly">Excel Data Sheets and Pivot Tables</a></li>	
+								</ul>
+							</div>
+						</div>
+					</section>
+
+
+                <!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>The data journey...</h2>
+									</header>
+									<p>The data set is over 8000 film and tv shows from Netflix up to 2021. It required a number of process to clean it before it could be used,<br />
+										below are the steps taken to clean the data before using pivot tables to create visualisations. The link above contains the workbook with <br />
+										both the raw and cleaned data, as well as the created visuals.<br />
+										1. Set date to correct format using =TEXT and set as date type.<br />
+										2. Used =TEXT to standardise format of ID so can be sorted and filtered on an index.<br />
+										3. Checked and removed duplicates.<br />
+										4. Used =REGEXREPLACE to remove special characters from directors and add space.<br />
+										5. Used =IF to add comma to end of lone categories and then =LEFT to remove additional categories on the first comma.<br />
+										6. Used =XLOOKUP to split duration column into separate film and show duration as different formats.<br />
+										7. Used =replace to remove mins and TRIM to remove spaces from duration and converted to integer.<br />
+									</p>
+                                    <span class="image">
+										<img src="images/Netflix Releases.jpg" style="display: block; margin: 0 auto; width: 50%;" alt="Responsive centered image">
+                                    </span>
+                                    <p>The images above and below show examples of the charts created using the pivot tables and slicers I created. The show<br />
+										the distribution of titles by their type and counts by director. Further charts on the length tv shows run for and <br />
+										the country of production.								
+									</p>
+                                    <span class="image">
+										<img src="images/netflix releases by director.jpg" style="display: block; margin: 0 auto; width: 50%;" alt="Responsive centered image">
+                                    </span>
+                                </div>
+							</section>
+
+							
+               
+                <!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+						
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">jameskendall10@gmail.com</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>07496555015</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Location</h3>
+										<a href="#">London, UK</a>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+			<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://github.com/jkendall10" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="jameskendall10linkedin.com/in/james-kendall-7bb90a12a" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; James Kendall</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+           
+           
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
